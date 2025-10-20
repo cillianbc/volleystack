@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "Dart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.dartai.com/mcp"
+      ],
+      "alwaysAllow": [
+        "get_config",
+        "get_dartboard",
+        "create_doc",
+        "get_doc",
+        "update_doc",
+        "delete_doc",
+        "list_docs",
+        "get_folder",
+        "list_help_center_articles",
+        "retrieve_skill_by_title",
+        "create_task",
+        "list_tasks",
+        "add_task_time_tracking",
+        "get_task",
+        "update_task",
+        "delete_task",
+        "add_task_attachment_from_url",
+        "move_task",
+        "get_view"
+      ],
+      "disabled": true
+    }
+  }
+}  }
+}
